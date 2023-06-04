@@ -1,6 +1,6 @@
 {
   "name": "@wikiline/webfont-roboto",
-  "version": "0.2.4",
+  "version": "1.0.0",
   "description": "Package for integrating WebFont Roboto",
   "main": "all.min.css",
   "files": [
