@@ -103,6 +103,66 @@ variables are not defined:
 }
 ```
 
+## Usage (SCSS)
+
+SCSS files are located in the `root` directory:
+
+* `all.scss`
+* `all-normal.scss`
+* `all-italic.scss`
+
+Font files are located in the `fonts/` directory. To import all fonts, you can use:
+
+### Importing
+
+```scss
+@import "~@wikiline/webfont-roboto/all";
+@import "~@wikiline/webfont-roboto/all-normal";
+@import "~@wikiline/webfont-roboto/all-italic";
+```
+
+To import specific fonts, you can use:
+
+```scss
+@import "~@wikiline/webfont-roboto/typefaces/100";
+@import "~@wikiline/webfont-roboto/typefaces/100-normal";
+@import "~@wikiline/webfont-roboto/typefaces/100-italic";
+@import "~@wikiline/webfont-roboto/typefaces/300";
+@import "~@wikiline/webfont-roboto/typefaces/300-normal";
+@import "~@wikiline/webfont-roboto/typefaces/300-italic";
+@import "~@wikiline/webfont-roboto/typefaces/400";
+@import "~@wikiline/webfont-roboto/typefaces/400-normal";
+@import "~@wikiline/webfont-roboto/typefaces/400-italic";
+@import "~@wikiline/webfont-roboto/typefaces/500";
+@import "~@wikiline/webfont-roboto/typefaces/500-normal";
+@import "~@wikiline/webfont-roboto/typefaces/500-italic";
+@import "~@wikiline/webfont-roboto/typefaces/700";
+@import "~@wikiline/webfont-roboto/typefaces/700-normal";
+@import "~@wikiline/webfont-roboto/typefaces/700-italic";
+@import "~@wikiline/webfont-roboto/typefaces/900";
+@import "~@wikiline/webfont-roboto/typefaces/900-normal";
+@import "~@wikiline/webfont-roboto/typefaces/900-italic";
+```
+
+```scss
+body {
+    font-family: 'Roboto', sans-serif;
+}
+```
+
+### Variables
+
+Each font uses the following SCSS variables to set the font display property with the default `swap` value if SCSS
+variables are not defined:
+
+* `$font-display` global value applicable to all fonts
+* `$font-display-roboto` the value applicable to a specific font
+
+```scss
+$font-display: swap;
+$font-display-roboto: swap;
+```
+
 ## Licensing
 
 It is important to always read the license for every font that you use. Most of the fonts in the collection use the SIL
