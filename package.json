@@ -1,12 +1,12 @@
 {
   "name": "@wikiline/webfont-roboto",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Package for integrating WebFont Roboto",
   "main": "all.min.css",
   "files": [
-    "fonts/*.{woff,woff2}",
-    "typefaces/*.{css}",
-    "*.{css}"
+    "./fonts/*.{woff,woff2}",
+    "./typefaces/*.css",
+    "./*.css"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
