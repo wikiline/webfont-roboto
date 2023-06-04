@@ -35,10 +35,10 @@ To import all fonts, you can use:
 ```css
 @import "~@wikiline/webfont-roboto/all.css";
 @import "~@wikiline/webfont-roboto/all.min.css";
-@import "~@wikiline/webfont-roboto/all-italic.css";
-@import "~@wikiline/webfont-roboto/all-italic.min.css";
 @import "~@wikiline/webfont-roboto/all-normal.css";
 @import "~@wikiline/webfont-roboto/all-normal.min.css";
+@import "~@wikiline/webfont-roboto/all-italic.css";
+@import "~@wikiline/webfont-roboto/all-italic.min.css";
 ```
 
 To import specific fonts, you can use:
