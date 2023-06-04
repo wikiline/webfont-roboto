@@ -5,8 +5,8 @@
   "main": "all.min.css",
   "files": [
     "./fonts/*.{woff,woff2}",
-    "./typefaces/*.{css, scss}",
-    "./*.{css, scss}"
+    "./typefaces/*.{css,scss}",
+    "./*.{css,scss}"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
