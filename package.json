@@ -1,0 +1,40 @@
+{
+  "name": "@wikiline/webfont-roboto",
+  "version": "0.1.0",
+  "description": "Package for integrating WebFont Roboto",
+  "main": "all.min.css",
+  "files": [
+    "fonts/*.{woff,woff2}",
+    "typefaces/*.{css}",
+    "*.{css}"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wikiline/webfont-roboto.git"
+  },
+  "keywords": [
+    "font",
+    "font-family",
+    "web",
+    "webfont",
+    "typeface",
+    "roboto",
+    "front-end",
+    "css"
+  ],
+  "author": {
+    "name": "bu0nq",
+    "email": "hello@bu0nq.ru"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wikiline/webfont-roboto/issues"
+  },
+  "homepage": "https://github.com/wikiline/webfont-roboto#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
