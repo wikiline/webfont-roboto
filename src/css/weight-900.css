@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/roboto-900-normal.woff2') format('woff2'), url('../../fonts/roboto-900-normal.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: var(--font-display-roboto, var(--font-display, swap));
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/roboto-900-italic.woff2') format('woff2'), url('../../fonts/roboto-900-italic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: var(--font-display-roboto, var(--font-display, swap));
+}
