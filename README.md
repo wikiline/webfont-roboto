@@ -13,74 +13,11 @@ This package can be deployed automatically using NPM:
 
 ```
 npm i @wikiline/webfont-roboto
- ```
+```
 
 ## Usage (CSS)
 
-CSS files are located in the `root` directory:
-
-* `all.css`
-* `all.min.css`
-* `all-normal.css`
-* `all-normal.min.css`
-* `all-italic.css`
-* `all-italic.min.css`
-
-Font files are located in the `fonts/` directory.
-
-### Importing
-
-To import all fonts, you can use:
-
-```css
-@import "~@wikiline/webfont-roboto/all.css";
-@import "~@wikiline/webfont-roboto/all.min.css";
-@import "~@wikiline/webfont-roboto/all-normal.css";
-@import "~@wikiline/webfont-roboto/all-normal.min.css";
-@import "~@wikiline/webfont-roboto/all-italic.css";
-@import "~@wikiline/webfont-roboto/all-italic.min.css";
-```
-
-To import specific fonts, you can use:
-
-```css
-@import "~@wikiline/webfont-roboto/typefaces/100.css";
-@import "~@wikiline/webfont-roboto/typefaces/100.min.css";
-@import "~@wikiline/webfont-roboto/typefaces/100-normal.css";
-@import "~@wikiline/webfont-roboto/typefaces/100-normal.min.css";
-@import "~@wikiline/webfont-roboto/typefaces/100-italic.css";
-@import "~@wikiline/webfont-roboto/typefaces/100-italic.min.css";
-@import "~@wikiline/webfont-roboto/typefaces/300.css";
-@import "~@wikiline/webfont-roboto/typefaces/300.min.css";
-@import "~@wikiline/webfont-roboto/typefaces/300-normal.css";
-@import "~@wikiline/webfont-roboto/typefaces/300-normal.min.css";
-@import "~@wikiline/webfont-roboto/typefaces/300-italic.css";
-@import "~@wikiline/webfont-roboto/typefaces/300-italic.min.css";
-@import "~@wikiline/webfont-roboto/typefaces/400.css";
-@import "~@wikiline/webfont-roboto/typefaces/400.min.css";
-@import "~@wikiline/webfont-roboto/typefaces/400-normal.css";
-@import "~@wikiline/webfont-roboto/typefaces/400-normal.min.css";
-@import "~@wikiline/webfont-roboto/typefaces/400-italic.css";
-@import "~@wikiline/webfont-roboto/typefaces/400-italic.min.css";
-@import "~@wikiline/webfont-roboto/typefaces/500.css";
-@import "~@wikiline/webfont-roboto/typefaces/500.min.css";
-@import "~@wikiline/webfont-roboto/typefaces/500-normal.css";
-@import "~@wikiline/webfont-roboto/typefaces/500-normal.min.css";
-@import "~@wikiline/webfont-roboto/typefaces/500-italic.css";
-@import "~@wikiline/webfont-roboto/typefaces/500-italic.min.css";
-@import "~@wikiline/webfont-roboto/typefaces/700.css";
-@import "~@wikiline/webfont-roboto/typefaces/700.min.css";
-@import "~@wikiline/webfont-roboto/typefaces/700-normal.css";
-@import "~@wikiline/webfont-roboto/typefaces/700-normal.min.css";
-@import "~@wikiline/webfont-roboto/typefaces/700-italic.css";
-@import "~@wikiline/webfont-roboto/typefaces/700-italic.min.css";
-@import "~@wikiline/webfont-roboto/typefaces/900.css";
-@import "~@wikiline/webfont-roboto/typefaces/900.min.css";
-@import "~@wikiline/webfont-roboto/typefaces/900-normal.css";
-@import "~@wikiline/webfont-roboto/typefaces/900-normal.min.css";
-@import "~@wikiline/webfont-roboto/typefaces/900-italic.css";
-@import "~@wikiline/webfont-roboto/typefaces/900-italic.min.css";
-```
+Font files are located in the `fonts/` directory. To import all fonts, you can use:
 
 ```css
 body {
@@ -88,13 +25,43 @@ body {
 }
 ```
 
+### Importing
+
+```css
+@import "~@wikiline/webfont-roboto/src/css/all.css";
+@import "~@wikiline/webfont-roboto/src/css/all-normal.css";
+@import "~@wikiline/webfont-roboto/src/css/all-italic.css";
+```
+
+To import specific fonts, you can use:
+
+```css
+@import "~@wikiline/webfont-roboto/src/css/weight-100.css";
+@import "~@wikiline/webfont-roboto/src/css/weight-100-normal.css";
+@import "~@wikiline/webfont-roboto/src/css/weight-100-italic.css";
+@import "~@wikiline/webfont-roboto/src/css/weight-300.css";
+@import "~@wikiline/webfont-roboto/src/css/weight-300-normal.css";
+@import "~@wikiline/webfont-roboto/src/css/weight-300-italic.css";
+@import "~@wikiline/webfont-roboto/src/css/weight-400.css";
+@import "~@wikiline/webfont-roboto/src/css/weight-400-normal.css";
+@import "~@wikiline/webfont-roboto/src/css/weight-400-italic.css";
+@import "~@wikiline/webfont-roboto/src/css/weight-500.css";
+@import "~@wikiline/webfont-roboto/src/css/weight-500-normal.css";
+@import "~@wikiline/webfont-roboto/src/css/weight-500-italic.css";
+@import "~@wikiline/webfont-roboto/src/css/weight-700.css";
+@import "~@wikiline/webfont-roboto/src/css/weight-700-normal.css";
+@import "~@wikiline/webfont-roboto/src/css/weight-700-italic.css";
+@import "~@wikiline/webfont-roboto/src/css/weight-900.css";
+@import "~@wikiline/webfont-roboto/src/css/weight-900-normal.css";
+@import "~@wikiline/webfont-roboto/src/css/weight-900-italic.css";
+```
+
+Note: Also, each file is presented in a minimized form.
+
 ### Variables
 
 Each font uses the following CSS variables to set the font display property with the default `swap` value if CSS
 variables are not defined:
-
-* `--font-display` global value applicable to all fonts
-* `--font-display-roboto` the value applicable to a specific font
 
 ```css
 :root {
@@ -105,44 +72,7 @@ variables are not defined:
 
 ## Usage (SCSS)
 
-SCSS files are located in the `root` directory:
-
-* `all.scss`
-* `all-normal.scss`
-* `all-italic.scss`
-
 Font files are located in the `fonts/` directory. To import all fonts, you can use:
-
-### Importing
-
-```scss
-@import "~@wikiline/webfont-roboto/all";
-@import "~@wikiline/webfont-roboto/all-normal";
-@import "~@wikiline/webfont-roboto/all-italic";
-```
-
-To import specific fonts, you can use:
-
-```scss
-@import "~@wikiline/webfont-roboto/typefaces/100";
-@import "~@wikiline/webfont-roboto/typefaces/100-normal";
-@import "~@wikiline/webfont-roboto/typefaces/100-italic";
-@import "~@wikiline/webfont-roboto/typefaces/300";
-@import "~@wikiline/webfont-roboto/typefaces/300-normal";
-@import "~@wikiline/webfont-roboto/typefaces/300-italic";
-@import "~@wikiline/webfont-roboto/typefaces/400";
-@import "~@wikiline/webfont-roboto/typefaces/400-normal";
-@import "~@wikiline/webfont-roboto/typefaces/400-italic";
-@import "~@wikiline/webfont-roboto/typefaces/500";
-@import "~@wikiline/webfont-roboto/typefaces/500-normal";
-@import "~@wikiline/webfont-roboto/typefaces/500-italic";
-@import "~@wikiline/webfont-roboto/typefaces/700";
-@import "~@wikiline/webfont-roboto/typefaces/700-normal";
-@import "~@wikiline/webfont-roboto/typefaces/700-italic";
-@import "~@wikiline/webfont-roboto/typefaces/900";
-@import "~@wikiline/webfont-roboto/typefaces/900-normal";
-@import "~@wikiline/webfont-roboto/typefaces/900-italic";
-```
 
 ```scss
 body {
@@ -150,13 +80,41 @@ body {
 }
 ```
 
+### Importing
+
+```scss
+@import "~@wikiline/webfont-roboto/src/scss/all";
+@import "~@wikiline/webfont-roboto/src/scss/all-normal";
+@import "~@wikiline/webfont-roboto/src/scss/all-italic";
+```
+
+To import specific fonts, you can use:
+
+```scss
+@import "~@wikiline/webfont-roboto/src/scss/weight-100";
+@import "~@wikiline/webfont-roboto/src/scss/weight-100-normal";
+@import "~@wikiline/webfont-roboto/src/scss/weight-100-italic";
+@import "~@wikiline/webfont-roboto/src/scss/weight-300";
+@import "~@wikiline/webfont-roboto/src/scss/weight-300-normal";
+@import "~@wikiline/webfont-roboto/src/scss/weight-300-italic";
+@import "~@wikiline/webfont-roboto/src/scss/weight-400";
+@import "~@wikiline/webfont-roboto/src/scss/weight-400-normal";
+@import "~@wikiline/webfont-roboto/src/scss/weight-400-italic";
+@import "~@wikiline/webfont-roboto/src/scss/weight-500";
+@import "~@wikiline/webfont-roboto/src/scss/weight-500-normal";
+@import "~@wikiline/webfont-roboto/src/scss/weight-500-italic";
+@import "~@wikiline/webfont-roboto/src/scss/weight-700";
+@import "~@wikiline/webfont-roboto/src/scss/weight-700-normal";
+@import "~@wikiline/webfont-roboto/src/scss/weight-700-italic";
+@import "~@wikiline/webfont-roboto/src/scss/weight-900";
+@import "~@wikiline/webfont-roboto/src/scss/weight-900-normal";
+@import "~@wikiline/webfont-roboto/src/scss/weight-900-italic";
+```
+
 ### Variables
 
 Each font uses the following SCSS variables to set the font display property with the default `swap` value if SCSS
 variables are not defined:
-
-* `$font-display` global value applicable to all fonts
-* `$font-display-roboto` the value applicable to a specific font
 
 ```scss
 $font-display: swap;
