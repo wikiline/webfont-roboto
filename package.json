@@ -1,11 +1,11 @@
 {
   "name": "@wikiline/webfont-roboto",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Package for integrating WebFont Roboto",
-  "main": "all.min.css",
+  "main": "./src/css/all.css",
   "files": [
     "./fonts/*.{woff,woff2}",
-    "./**/*.{css,scss}"
+    "./src/**/*.{css,scss}"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,14 +16,11 @@
   },
   "keywords": [
     "font",
-    "font-family",
-    "web",
-    "webfont",
     "typeface",
-    "roboto",
-    "front-end",
-    "css",
-    "scss"
+    "webfont",
+    "woff",
+    "woff2",
+    "roboto"
   ],
   "author": {
     "name": "bu0nq",
