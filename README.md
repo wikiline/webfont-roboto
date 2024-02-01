@@ -21,7 +21,7 @@ Font files are located in the `fonts/` directory. To import all fonts, you can u
 
 ```css
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 ```
 
@@ -65,9 +65,66 @@ variables are not defined:
 
 ```css
 :root {
-    --font-display: swap;
-    --font-display-roboto: swap;
+  --font-display: swap;
+  --font-display-roboto: swap;
 }
+```
+
+## Usage (LESS)
+
+Font files are located in the `fonts/` directory. To import all fonts, you can use:
+
+```scss
+body {
+  font-family: 'Roboto', sans-serif;
+}
+```
+
+### Importing
+
+```less
+@import "~@wikiline/webfont-roboto/src/less/all";
+@import "~@wikiline/webfont-roboto/src/less/all-normal";
+@import "~@wikiline/webfont-roboto/src/less/all-italic";
+```
+
+To import specific fonts, you can use:
+
+```less
+@import "~@wikiline/webfont-roboto/src/less/_weight-100";
+@import "~@wikiline/webfont-roboto/src/less/_weight-100-normal";
+@import "~@wikiline/webfont-roboto/src/less/_weight-100-italic";
+@import "~@wikiline/webfont-roboto/src/less/_weight-300";
+@import "~@wikiline/webfont-roboto/src/less/_weight-300-normal";
+@import "~@wikiline/webfont-roboto/src/less/_weight-300-italic";
+@import "~@wikiline/webfont-roboto/src/less/_weight-400";
+@import "~@wikiline/webfont-roboto/src/less/_weight-400-normal";
+@import "~@wikiline/webfont-roboto/src/less/_weight-400-italic";
+@import "~@wikiline/webfont-roboto/src/less/_weight-500";
+@import "~@wikiline/webfont-roboto/src/less/_weight-500-normal";
+@import "~@wikiline/webfont-roboto/src/less/_weight-500-italic";
+@import "~@wikiline/webfont-roboto/src/less/_weight-700";
+@import "~@wikiline/webfont-roboto/src/less/_weight-700-normal";
+@import "~@wikiline/webfont-roboto/src/less/_weight-700-italic";
+@import "~@wikiline/webfont-roboto/src/less/_weight-900";
+@import "~@wikiline/webfont-roboto/src/less/_weight-900-normal";
+@import "~@wikiline/webfont-roboto/src/less/_weight-900-italic";
+```
+
+### Variables
+
+Each font uses the following LESS variables to set the font display property with the default `swap` value if SCSS
+variables are not defined:
+
+```less
+@font-display: swap;
+@font-display-roboto: swap;
+```
+
+or
+
+```less
+@import "~@wikiline/webfont-roboto/src/less/config/_variables";
 ```
 
 ## Usage (SCSS)
@@ -76,7 +133,7 @@ Font files are located in the `fonts/` directory. To import all fonts, you can u
 
 ```scss
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 ```
 
