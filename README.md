@@ -28,32 +28,32 @@ body {
 ### Importing
 
 ```css
-@import "~@wikiline/webfont-roboto/src/css/all.css";
-@import "~@wikiline/webfont-roboto/src/css/all-normal.css";
-@import "~@wikiline/webfont-roboto/src/css/all-italic.css";
+@import "~@wikiline/webfont-roboto/css/all.css";
+@import "~@wikiline/webfont-roboto/css/all-normal.css";
+@import "~@wikiline/webfont-roboto/css/all-italic.css";
 ```
 
 To import specific fonts, you can use:
 
 ```css
-@import "~@wikiline/webfont-roboto/src/css/weight-100.css";
-@import "~@wikiline/webfont-roboto/src/css/weight-100-normal.css";
-@import "~@wikiline/webfont-roboto/src/css/weight-100-italic.css";
-@import "~@wikiline/webfont-roboto/src/css/weight-300.css";
-@import "~@wikiline/webfont-roboto/src/css/weight-300-normal.css";
-@import "~@wikiline/webfont-roboto/src/css/weight-300-italic.css";
-@import "~@wikiline/webfont-roboto/src/css/weight-400.css";
-@import "~@wikiline/webfont-roboto/src/css/weight-400-normal.css";
-@import "~@wikiline/webfont-roboto/src/css/weight-400-italic.css";
-@import "~@wikiline/webfont-roboto/src/css/weight-500.css";
-@import "~@wikiline/webfont-roboto/src/css/weight-500-normal.css";
-@import "~@wikiline/webfont-roboto/src/css/weight-500-italic.css";
-@import "~@wikiline/webfont-roboto/src/css/weight-700.css";
-@import "~@wikiline/webfont-roboto/src/css/weight-700-normal.css";
-@import "~@wikiline/webfont-roboto/src/css/weight-700-italic.css";
-@import "~@wikiline/webfont-roboto/src/css/weight-900.css";
-@import "~@wikiline/webfont-roboto/src/css/weight-900-normal.css";
-@import "~@wikiline/webfont-roboto/src/css/weight-900-italic.css";
+@import "~@wikiline/webfont-roboto/css/weight-100.css";
+@import "~@wikiline/webfont-roboto/css/weight-100-normal.css";
+@import "~@wikiline/webfont-roboto/css/weight-100-italic.css";
+@import "~@wikiline/webfont-roboto/css/weight-300.css";
+@import "~@wikiline/webfont-roboto/css/weight-300-normal.css";
+@import "~@wikiline/webfont-roboto/css/weight-300-italic.css";
+@import "~@wikiline/webfont-roboto/css/weight-400.css";
+@import "~@wikiline/webfont-roboto/css/weight-400-normal.css";
+@import "~@wikiline/webfont-roboto/css/weight-400-italic.css";
+@import "~@wikiline/webfont-roboto/css/weight-500.css";
+@import "~@wikiline/webfont-roboto/css/weight-500-normal.css";
+@import "~@wikiline/webfont-roboto/css/weight-500-italic.css";
+@import "~@wikiline/webfont-roboto/css/weight-700.css";
+@import "~@wikiline/webfont-roboto/css/weight-700-normal.css";
+@import "~@wikiline/webfont-roboto/css/weight-700-italic.css";
+@import "~@wikiline/webfont-roboto/css/weight-900.css";
+@import "~@wikiline/webfont-roboto/css/weight-900-normal.css";
+@import "~@wikiline/webfont-roboto/css/weight-900-italic.css";
 ```
 
 Note: Also, each file is presented in a minimized form.
@@ -83,32 +83,32 @@ body {
 ### Importing
 
 ```less
-@import "~@wikiline/webfont-roboto/src/less/all";
-@import "~@wikiline/webfont-roboto/src/less/all-normal";
-@import "~@wikiline/webfont-roboto/src/less/all-italic";
+@import "~@wikiline/webfont-roboto/less/all";
+@import "~@wikiline/webfont-roboto/less/all-normal";
+@import "~@wikiline/webfont-roboto/less/all-italic";
 ```
 
 To import specific fonts, you can use:
 
 ```less
-@import "~@wikiline/webfont-roboto/src/less/_weight-100";
-@import "~@wikiline/webfont-roboto/src/less/_weight-100-normal";
-@import "~@wikiline/webfont-roboto/src/less/_weight-100-italic";
-@import "~@wikiline/webfont-roboto/src/less/_weight-300";
-@import "~@wikiline/webfont-roboto/src/less/_weight-300-normal";
-@import "~@wikiline/webfont-roboto/src/less/_weight-300-italic";
-@import "~@wikiline/webfont-roboto/src/less/_weight-400";
-@import "~@wikiline/webfont-roboto/src/less/_weight-400-normal";
-@import "~@wikiline/webfont-roboto/src/less/_weight-400-italic";
-@import "~@wikiline/webfont-roboto/src/less/_weight-500";
-@import "~@wikiline/webfont-roboto/src/less/_weight-500-normal";
-@import "~@wikiline/webfont-roboto/src/less/_weight-500-italic";
-@import "~@wikiline/webfont-roboto/src/less/_weight-700";
-@import "~@wikiline/webfont-roboto/src/less/_weight-700-normal";
-@import "~@wikiline/webfont-roboto/src/less/_weight-700-italic";
-@import "~@wikiline/webfont-roboto/src/less/_weight-900";
-@import "~@wikiline/webfont-roboto/src/less/_weight-900-normal";
-@import "~@wikiline/webfont-roboto/src/less/_weight-900-italic";
+@import "~@wikiline/webfont-roboto/less/_weight-100";
+@import "~@wikiline/webfont-roboto/less/_weight-100-normal";
+@import "~@wikiline/webfont-roboto/less/_weight-100-italic";
+@import "~@wikiline/webfont-roboto/less/_weight-300";
+@import "~@wikiline/webfont-roboto/less/_weight-300-normal";
+@import "~@wikiline/webfont-roboto/less/_weight-300-italic";
+@import "~@wikiline/webfont-roboto/less/_weight-400";
+@import "~@wikiline/webfont-roboto/less/_weight-400-normal";
+@import "~@wikiline/webfont-roboto/less/_weight-400-italic";
+@import "~@wikiline/webfont-roboto/less/_weight-500";
+@import "~@wikiline/webfont-roboto/less/_weight-500-normal";
+@import "~@wikiline/webfont-roboto/less/_weight-500-italic";
+@import "~@wikiline/webfont-roboto/less/_weight-700";
+@import "~@wikiline/webfont-roboto/less/_weight-700-normal";
+@import "~@wikiline/webfont-roboto/less/_weight-700-italic";
+@import "~@wikiline/webfont-roboto/less/_weight-900";
+@import "~@wikiline/webfont-roboto/less/_weight-900-normal";
+@import "~@wikiline/webfont-roboto/less/_weight-900-italic";
 ```
 
 ### Variables
@@ -124,7 +124,7 @@ variables are not defined:
 or
 
 ```less
-@import "~@wikiline/webfont-roboto/src/less/config/_variables";
+@import "~@wikiline/webfont-roboto/less/config/_variables";
 ```
 
 ## Usage (SCSS)
@@ -140,32 +140,32 @@ body {
 ### Importing
 
 ```scss
-@import "~@wikiline/webfont-roboto/src/scss/all";
-@import "~@wikiline/webfont-roboto/src/scss/all-normal";
-@import "~@wikiline/webfont-roboto/src/scss/all-italic";
+@import "~@wikiline/webfont-roboto/scss/all";
+@import "~@wikiline/webfont-roboto/scss/all-normal";
+@import "~@wikiline/webfont-roboto/scss/all-italic";
 ```
 
 To import specific fonts, you can use:
 
 ```scss
-@import "~@wikiline/webfont-roboto/src/scss/weight-100";
-@import "~@wikiline/webfont-roboto/src/scss/weight-100-normal";
-@import "~@wikiline/webfont-roboto/src/scss/weight-100-italic";
-@import "~@wikiline/webfont-roboto/src/scss/weight-300";
-@import "~@wikiline/webfont-roboto/src/scss/weight-300-normal";
-@import "~@wikiline/webfont-roboto/src/scss/weight-300-italic";
-@import "~@wikiline/webfont-roboto/src/scss/weight-400";
-@import "~@wikiline/webfont-roboto/src/scss/weight-400-normal";
-@import "~@wikiline/webfont-roboto/src/scss/weight-400-italic";
-@import "~@wikiline/webfont-roboto/src/scss/weight-500";
-@import "~@wikiline/webfont-roboto/src/scss/weight-500-normal";
-@import "~@wikiline/webfont-roboto/src/scss/weight-500-italic";
-@import "~@wikiline/webfont-roboto/src/scss/weight-700";
-@import "~@wikiline/webfont-roboto/src/scss/weight-700-normal";
-@import "~@wikiline/webfont-roboto/src/scss/weight-700-italic";
-@import "~@wikiline/webfont-roboto/src/scss/weight-900";
-@import "~@wikiline/webfont-roboto/src/scss/weight-900-normal";
-@import "~@wikiline/webfont-roboto/src/scss/weight-900-italic";
+@import "~@wikiline/webfont-roboto/scss/weight-100";
+@import "~@wikiline/webfont-roboto/scss/weight-100-normal";
+@import "~@wikiline/webfont-roboto/scss/weight-100-italic";
+@import "~@wikiline/webfont-roboto/scss/weight-300";
+@import "~@wikiline/webfont-roboto/scss/weight-300-normal";
+@import "~@wikiline/webfont-roboto/scss/weight-300-italic";
+@import "~@wikiline/webfont-roboto/scss/weight-400";
+@import "~@wikiline/webfont-roboto/scss/weight-400-normal";
+@import "~@wikiline/webfont-roboto/scss/weight-400-italic";
+@import "~@wikiline/webfont-roboto/scss/weight-500";
+@import "~@wikiline/webfont-roboto/scss/weight-500-normal";
+@import "~@wikiline/webfont-roboto/scss/weight-500-italic";
+@import "~@wikiline/webfont-roboto/scss/weight-700";
+@import "~@wikiline/webfont-roboto/scss/weight-700-normal";
+@import "~@wikiline/webfont-roboto/scss/weight-700-italic";
+@import "~@wikiline/webfont-roboto/scss/weight-900";
+@import "~@wikiline/webfont-roboto/scss/weight-900-normal";
+@import "~@wikiline/webfont-roboto/scss/weight-900-italic";
 ```
 
 ### Variables
